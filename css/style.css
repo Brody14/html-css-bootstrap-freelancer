@@ -10,9 +10,20 @@
     background-color: var(--br__bg-dark);
 }
 
+/* MAIN */
+
+.hero {
+    background-color: var(--br__bg-green);
+}
+
 /* DEBUG */
 
 .debug .container {
     padding: 1.5rem;
 }
 
+
+.debug .row > * {
+    border: 2px solid black;
+    padding: 3rem;
+}
