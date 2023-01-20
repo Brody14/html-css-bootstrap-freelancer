@@ -27,6 +27,10 @@
 
 /* FOOTER */
 
+#main-footer {
+    background-color: var(--br__bg-dark);
+}
+
 /* REFERENCES */
 
 .information {
