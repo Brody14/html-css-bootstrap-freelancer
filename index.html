@@ -6,17 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Freelancer</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d3a966ac98.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="debug">
+<body class="-debug">
 
     <!-- HEADER -->
 
-    <header id="main-header">
+    <header id="main-header" class="py-4">
         <div class="container">
-            <div class="row row-cols-2">
-                <div>logo</div>
-                <nav>nav</nav>
+            <div class="row row-cols-auto justify-content-between text-uppercase align-items-center">
+
+                <h2 class="logo mb-0">
+                    <a href="#" class="lh-lg ">start bootraps</a>
+                </h2>
+
+                <ul class="list-unstyled row row-cols-auto justify-content-between mb-0">
+                    <li class="d-none d-md-block"><a href="#" class="lh-lg">portfolio</a></li>
+                    <li class="d-none d-md-block"><a href="#" class="lh-lg">about</a></li>
+                    <li class="d-none d-md-block"><a href="#" class="lh-lg">contact</a></li>
+                    <a href="#" class="hamburger d-md-none"><i class="icon fa-solid fa-bars"></i></a>
+                </ul>
 
             </div>
         

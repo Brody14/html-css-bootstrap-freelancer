@@ -4,10 +4,35 @@
     --br__bg-gray: #3a546d;
 }
 
+body {
+    color: white;
+}
+
+
+a {
+    text-decoration: none;
+    color: currentColor;
+    display: block;
+}
+
 /* HEADER */
 
 #main-header {
     background-color: var(--br__bg-dark);
+}
+
+.logo {
+    font-size: 1.5rem;
+}
+
+.hamburger {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+.icon {
+    color: gray;
 }
 
 /* MAIN */
