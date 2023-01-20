@@ -1,0 +1,18 @@
+:root {
+    --br__bg-dark: #2c3e50;
+    --br__bg-green: #1abc9c;
+    --br__bg-gray: #3a546d;
+}
+
+/* HEADER */
+
+#main-header {
+    background-color: var(--br__bg-dark);
+}
+
+/* DEBUG */
+
+.debug .container {
+    padding: 1.5rem;
+}
+
