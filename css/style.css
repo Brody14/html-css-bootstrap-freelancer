@@ -14,11 +14,14 @@
 
 /* HERO */
 
-.hero {
+.hero,
+.about {
     background-color: var(--br__bg-green);
 }
 
 /* PORTFOLIO */
+
+/* ABOUT */
 
 
 
