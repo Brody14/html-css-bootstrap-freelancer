@@ -113,7 +113,8 @@ img {
 
 /* ABOUT */
 
-.about {
+.about,
+.contact-me {
     padding-top: 40px;
     padding-bottom: 25px;
 }
@@ -128,13 +129,15 @@ img {
 
 @media screen and (min-width:992px) {
 
-    .about {
-        padding-top: 60px;
+    .about,
+    .contact-me {
+        padding-top: 80px;
         padding-bottom: 60px;
     }
 }
 
 /* CONTACT-ME */
+
 
 /* FOOTER */
 
