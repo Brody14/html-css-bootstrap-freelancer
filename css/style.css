@@ -119,6 +119,10 @@ img {
     padding-bottom: 25px;
 }
 
+.row-about {
+    font-size: 19px;
+}
+
 .br__button {
     border: 1px solid;
     border-radius: 5px;
@@ -141,16 +145,48 @@ img {
 
 /* FOOTER */
 
-#main-footer {
-    background-color: var(--br__bg-dark);
-}
 
-/* REFERENCES */
+/* INFORMATION */
 
 .information {
     background-color: var(--br__bg-gray);
+    padding: 60px 0;
 } 
 
+.br__card-title {
+    font-size: 24px;
+}
+
+.br__card-body {
+    font-size: 20px;
+}
+
+.br__card-body > i {
+    border: 1px solid;
+    border-radius: 999px;
+    aspect-ratio: 1/1;
+    padding: 10px 15px;
+}
+
+.start-link {
+    color: var(--br__bg-green);
+}
+
+@media screen and (min-width:992px) {
+
+    .information {
+        padding: 40px 0;
+    } 
+}
+
+
+/* COPYRIGHT */
+
+.copyright {
+    background-color: var(--br__bg-dark);
+    padding: 40px 0;
+    font-size: 14px;
+}
 
 
 /* DEBUG */
