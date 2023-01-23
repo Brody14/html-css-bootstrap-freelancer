@@ -113,6 +113,27 @@ img {
 
 /* ABOUT */
 
+.about {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.br__button {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+
+
+@media screen and (min-width:992px) {
+
+    .about {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+}
+
 /* CONTACT-ME */
 
 /* FOOTER */
