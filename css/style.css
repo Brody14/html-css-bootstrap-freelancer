@@ -23,19 +23,6 @@ img {
     background-color: var(--br__bg-dark);
 }
 
-.logo {
-    font-size: 1.5rem;
-}
-
-.hamburger {
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 0 10px;
-}
-
-.icon {
-    color: gray;
-}
 
 /* MAIN */
 
