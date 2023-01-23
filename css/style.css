@@ -40,10 +40,6 @@ img {
     color: gray;
 }
 
-.nav__wrapper {
-    gap: 1.4rem;
-}
-
 /* MAIN */
 
 /* HERO */
@@ -53,6 +49,34 @@ img {
     background-color: var(--br__bg-green);
 }
 
+.hero__img {
+    width: 260px;
+    margin: 0 auto;
+}
+
+.star {
+    position: relative;
+}
+
+.star::before {
+    content: '';
+    display: block;
+    width: 15%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 31%;
+}
+
+.star::after {
+    content: '';
+    display: block;
+    width: 15%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    right: 31%;
+}
 
 
 /* PORTFOLIO */
