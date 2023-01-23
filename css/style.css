@@ -94,7 +94,22 @@ img {
 
 /* PORTFOLIO */
 
+.portfolio {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
 
+.br__card-img {
+    border-radius: 10px;
+}
+
+@media screen and (min-width:992px) {
+
+    .portfolio {
+        padding-top: 70px;
+        padding-bottom: 90px;
+    }
+}
 
 /* ABOUT */
 
