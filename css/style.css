@@ -142,6 +142,24 @@ img {
 
 /* CONTACT-ME */
 
+.br__button.full {
+    background-color: var(--br__bg-green);
+    color: white;
+    border: none;
+}
+
+form > * {
+    margin: 5px 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: #e9ecef;
+}
+
+::placeholder {
+    color: black;
+}
+
 
 /* FOOTER */
 
