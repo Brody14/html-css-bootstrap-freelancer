@@ -33,33 +33,19 @@ img {
     background-color: var(--br__bg-green);
 }
 
-.hero__img img{
+.hero__img {
     width: 190px;
     margin: 0 auto;
 }
 
-.star {
-    position: relative;
-}
 
-.star::before {
+.star::before,
+.star::after  {
     content: '';
     display: block;
     width: 15%;
     height: 2px;
     background-color: currentColor;
-    position: absolute;
-    left: 31%;
-}
-
-.star::after {
-    content: '';
-    display: block;
-    width: 15%;
-    height: 2px;
-    background-color: currentColor;
-    position: absolute;
-    right: 31%;
 }
 
 .icon {
@@ -73,7 +59,7 @@ img {
 
 @media screen and (min-width:992px) {
     
-    .hero__img img{
+    .hero__img{
         width: 260px;
     }
 
